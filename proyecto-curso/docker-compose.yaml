@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  proyecto-curso:
+    build: ./proyecto-curso
+    container_name: name-proyecto-curso
+    ports:
+      - "8080:8080"
+    stdin_open: true
+    tty: true
